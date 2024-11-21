@@ -22,6 +22,8 @@ The following steps were carried out to ensure the infrastructure was provisione
 >curl: (7) Failed to connect to 10.11.12.4 port 443 after 1 ms: Connection refused
 >```
 
+> 💡 **Explanation**: `127.0.0.1` is only a locahost IP address. The app must listen on all IPs --> `0.0.0.0` when running inside a Docker container
+
 - ✅ SSH to public IP address of the `worker` instance via SSH using Azure CLI
 - ✅ Send `http` request from the `worker` instance to the `backend` one and access the dummy web application on port `443`
 - ✅ Get HTTP 200 status code
