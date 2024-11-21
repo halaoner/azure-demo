@@ -1,0 +1,1 @@
+This is a placeholder documentation for examples of reusability of modules in `infrastructure/modules/` directory.
