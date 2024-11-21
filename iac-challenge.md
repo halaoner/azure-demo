@@ -1,6 +1,6 @@
 # IaC Challenge
 
-In this challenge, you will create IaC code for the Azure virtual infrastructure described below using either Terraform or Azure Bicep (your choice). We will then review the code and discuss your approach during our interview session.
+In this challenge, you will create IaC code for the Azure virtual infrastructure described below using either Terraform or Azure Bicep (your choice). 
 
 ## Infrastructure to be created
 
@@ -36,11 +36,3 @@ The simple infrastructure consists of a virtual network with 2 separate subnets 
 2. Write down (in a separate file in this repo) the command required to deploy the IaC file(s) to Azure. The deployment should target the environment name (`envName`) `qa` to the existing resource group `devops-interview`.
 3. During the interview session, you will guide us through the code and elaborate on your thoughts and decisions.
 
-> NOTE: There's no single right or wrong solution. Of course the code should work, but generally we are interested in learning how you approach this challenge.
-
-## Questions & Contact
-
-If there are questions or some things are unclear, make a decision based on your best guess and take a note. If you get stuck and you need to talk to be before the Interview session, feel free to send me an [email](mailto:seggenschwiler@hamilton-medical.com) or [chat with me on Teams](https://teams.microsoft.com/l/chat/0/0?users=seggenschwiler@hamilton-medical.com).
-
-Have fun, good luck and looking forward to talk soon!  
-_Stefan & the Digital Solutions Dev Team_
