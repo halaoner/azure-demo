@@ -6,4 +6,4 @@ This project creates a simple web application deployed to Azure alongside an inf
 
 - `application/` holds the application sources code
 - `infrastrcuture/` holds the infrastructure code (here is more information about the infrastructure)
-- `iac-challenge.md` describeds the given use case
+- `iac-challenge.md` describes the given use case
